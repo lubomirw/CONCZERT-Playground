@@ -22,6 +22,6 @@ namespace Czertainly.Auth.Models.Dto
         [Required]
         public bool SystemUser { get; init; }
 
-        public int Age { get; init; }
+        public decimal Age { get; init; }
     }
 }
